@@ -100,7 +100,9 @@ body{
     padding-bottom: 20px;
     
   }
-
+.logo{
+   scale: 1.4;
+}
 
   /*tablets*/
 
@@ -183,5 +185,11 @@ section#point h3{
    @media (max-width: 576px) { /* Small viewport */
       .fa-linkedin {
         font-size: 1rem; /* Equivalent to 1x size */
+      }
+      .logo{
+         scale: .8;
+      }
+      .navbar-brand img{
+         height: auto;
       }
    }
